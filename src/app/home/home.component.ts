@@ -21,7 +21,8 @@ export class HomeComponent implements OnInit {
 
   dynamicText: string = "";
   phrases: string[] =[
-    "Team Player.",
+    "Data Analyst.",
+    "ML/AI Enthusiast.",
     "Software Developer.",
     "Backend Engineer.",
     "Software Engineer.",
@@ -36,7 +37,7 @@ export class HomeComponent implements OnInit {
   delayBetweenPhrases: number = 2000;
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('BC | Home')
+    this.titleService.setTitle('Home')
   }
 
 
