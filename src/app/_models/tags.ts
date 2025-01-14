@@ -3,6 +3,9 @@ export class Tag {
     static readonly ANGULAR = new Tag('Angular', '#5a7581');
     static readonly JAVA = new Tag('Java', '#5a7581');
     static readonly SPRINGBOOT = new Tag('Spring Boot', '#5a7581');
+    static readonly KAGGLE = new Tag('KAGGLE', '#5a7581');
+    static readonly CNN = new Tag('CNN', '#5a7581');
+    static readonly SNN = new Tag('Siamese Nural Network', '#5a7581');
     static readonly SPRINGSECURITY = new Tag('Spring Security', '#5a7581');
     static readonly SPRINGJWT = new Tag('Spring JWT', '#5a7581');
     static readonly SPRINGWEB = new Tag('Spring Web', '#5a7581');
