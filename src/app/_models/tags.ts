@@ -1,6 +1,8 @@
 
 export class Tag {
     static readonly ANGULAR = new Tag('Angular', '#5a7581');
+    static readonly KGs = new Tag('KGs', '#5a7581');
+    static readonly Semantic = new Tag('Semantic', '#5a7581');
     static readonly JAVA = new Tag('Java', '#5a7581');
     static readonly SPRINGBOOT = new Tag('Spring Boot', '#5a7581');
     static readonly KAGGLE = new Tag('KAGGLE', '#5a7581');
@@ -41,6 +43,25 @@ export class Tag {
     static readonly FASTAPI = new Tag('FastAPI', '#4a6a77');
     static readonly SQLITE = new Tag('SQLite', '#355158');
     static readonly PYDANTIC = new Tag('Pydantic', '##4a6a77');
+    static readonly MATHS = new Tag('Maths', '#5a7581');
+    static readonly RESEARCH = new Tag('Research', '#5a7581');
+    static readonly EXPRESSjs = new Tag('Express.js', '#5a7581');
+    static readonly NODEjs = new Tag('Node.js', '#5a7581');
+    static readonly NEXTjs = new Tag('Next.js', '#5a7581');
+    static readonly Tailwind = new Tag('Tailwind CSS', '#5a7581');
+    static readonly REACTjs = new Tag('React.js', '#5a7581');
+    static readonly TAILWIND = new Tag('Tailwind CSS', '#5a7581');
+    static readonly GITHUB = new Tag('GitHub', '#5a7581');
+    static readonly GIT = new Tag('Git', '#5a7581');
+    static readonly JAVAFX = new Tag('JavaFX', '#5a7581');
+    static readonly OOPs = new Tag('OOPs', '#5a7581');
+    static readonly SceneBuilder = new Tag('SceneBuilder', '#5a7581');
+    static readonly PRISMA = new Tag('Prisma', '#5a7581');
+    static readonly Nodemailer = new Tag('Nodemailer', '#5a7581');
+    
+
+
+
 
 
 

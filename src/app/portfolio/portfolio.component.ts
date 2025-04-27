@@ -24,60 +24,60 @@ export class PortfolioComponent {
       tags: [Tag.PYTHON, Tag.PYTEST, Tag.KAGGLE, Tag.CNN, Tag.SNN ,Tag.PANDAS],
       pictures: ["../../assets/snn.png", "../../assets/snn_dig.png"]
     },
-    // {
-    //   id: 2,
-    //   name: 'The Pokédex Project',
-    //   summary: 'The Pokédex project is a comprehensive system developed to manage and provide detailed information about Pokémon. It consists of a backend API built with FastAPI and a frontend interface developed using Angular. Docker is used for deploy and Pytest for unit tests.',
-    //   description: 'In this project, I aimed to build a comprehensive Pokédex API and a user-friendly frontend interface to enhance the Pokémon experience. My primary objective here was to showcase knowledge in a variety of tools and development services. These included the creation of an API with FastAPI (Python), handling robust data size and asynchronous requests; showcasing alphabetical order for the Pokémon list and data; designing a dark-theme interface for improved user experience; developing an intuitive frontend interface that allows for easy browsing and access to Pokémon information; exporting Pokémon data to an XML file; using Gitflow for version control and collaborative development; Pytest for unit testing to maintain code quality and reliability; and Docker and Docker-Compose for building and deploying the application efficiently. With these tools and objectives in place, the Pokédex Project was created and is ready for testing, use, and deployment.',
-    //   projectLink: 'https://github.com/barbaracalderon/pokedex-api',
-    //   tags: [Tag.PYTHON, Tag.PYTEST, Tag.FASTAPI, Tag.ANGULAR, Tag.BOOTSTRAP, Tag.CSS3, Tag.HTML5, Tag.DOCKER, Tag.DOCKERCOMPOSE, Tag.SQLITE],
-    //   pictures: ["../../assets/pokedex_01.png", "../../assets/pokedex_02.png", "../../assets/pokedex_03.png", "../../assets/pokedex_04.png", "../../assets/pokedex_05.png", "../../assets/pokedex_06.png", "../../assets/pokedex_07.png"]
-    // },
-    // {
-    //   id: 3,
-    //   name: 'TeamTrack',
-    //   summary: 'TeamTrack is an application for visualizing projects with "open" status to keep track of your customers and activities.',
-    //   description: 'TeamTrack was developed by me with the aim of facilitating project, customer, and task management, offering an intuitive interface and requested functionalities, similar to a watchdog. The combination of Spring Boot on the backend and Vue.js on the frontend provides an efficient application that is easy to maintain. We hope this system meets your needs and facilitates tracking your daily activities.',
-    //   projectLink: 'https://github.com/barbaracalderon/teamtrack',
-    //   tags: [Tag.VUEJS, Tag.TYPESCRIPT, Tag.HTML5, Tag.CSS3, Tag.BOOTSTRAP, Tag.JAVA, Tag.JPA, Tag.JDBC, Tag.JUNIT, Tag.MOCKITO, Tag.HIBERNATE, Tag.LOMBOK, Tag.SPRINGBOOT, Tag.SPRINGWEB],
-    //   pictures: ["../../assets/teamtrack_06.png", "../../assets/teamtrack_07.png", "../../assets/teamtrack_08.png", "../../assets/teamtrack_09.png", "../../assets/teamtrack_10.png"]
-    // },
-    // {
-    //   id: 4,
-    //   name: 'Angular Portfolio App',
-    //   summary: 'A responsive and dynamic portfolio website designed and developed by Barbara Calderon.',
-    //   description: 'This portfolio is a dynamic and responsive web application built using Angular, showcasing my skills and projects as a software developer. The design and development of this portfolio aimed to provide a seamless user experience across different devices while highlighting various aspects of my professional journey. The potfolio has sections of home, about, education, portfolio projects and contact information. Key features are its dynamic content, the responsive design and modern aesthetics.',
-    //   projectLink: 'https://github.com/barbaracalderon/angular-portfolio-app',
-    //   tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.HTML5, Tag.CSS3, Tag.BOOTSTRAP],
-    //   pictures: ["../../assets/portfolio_01.png", "../../assets/portfolio_02.png", "../../assets/portfolio_03.png", "../../assets/portfolio_04.png", "../../assets/portfolio_05.png"]
-    // },
-    // {
-    //   id: 5,
-    //   name: 'The Brazilian State Official Gazettes Restful API',
-    //   summary: "The 'Diário Oficial da União' (DOU) Web Restful API developed in the thesis for the bachelor's degree in Information Systems at UFSC.",
-    //   description: "The Diário Oficial da União (DOU) serves as an official communication medium of the Brazilian state to its nationals and interested parties, established in 1862. Traditionally printed by the National Press, the DOU underwent a transformation in 2017, becoming fully digitized and accessible only online. This work focuses on a case study capturing data from DOUs between 2020-2022. The project provides accessibility through a Web Restful API using the Swagger framework for documentation. For this project, a data model was developed to extract information about signers of documents in a DOU article, the type of its publication (dispatch, ordinance, etc.), main category (ministry, secretariat, etc.), publication date, and more.",
-    //   projectLink: 'https://github.com/barbaracalderon/dou-rest-api',
-    //   tags: [Tag.PYTHON, Tag.FLASK, Tag.HTML5, Tag.CSS3, Tag.JAVASCRIPT, Tag.INSOMNIA, Tag.POSTGRESQL, Tag.SQLALCHEMY, Tag.SQL],
-    //   pictures: ["../../assets/dou_01.png", "../../assets/dou_02.png", "../../assets/dou_03.png"]
-    // },
-    // {
-    //   id: 6,
-    //   name: 'Slot Machine Game',
-    //   summary: 'The slot machine game played in Casinos, with three spinning reels, recreated in Javascript, HTML5 and CSS3.',
-    //   description: "This is a simple slot machine game built using HTML, CSS, and JavaScript. The game features three reels with various images, a start button to spin the reels, and dynamic display of balance and bet values. The slot machine game was created as a challenge project to explore frontend skills and JavaScript programming. Initially, the intention was to use Pixi.js for graphics rendering, but due to time constraints and a steep learning curve (first time dealing with it), a simpler approach with basic HTML, CSS, and JavaScript was chosen. I also had plans to add a slot lever sound effect when pressing play, but was unable to find a free resource available.",
-    //   projectLink: 'https://github.com/barbaracalderon/simple-slot-machine-game',
-    //   tags: [Tag.JAVASCRIPT, Tag.HTML5, Tag.CSS3],
-    //   pictures: ["../../assets/sm_01.png", "../../assets/sm_02.png", "../../assets/sm_03.png"]
-    // },
-    // {
-    //   id: 7,
-    //   name: 'EduConnect API',
-    //   summary: 'EduConnect Application is a RESTful API for educational management, handling students, teachers, courses, grades, subjects, and more. Developed in Java with Spring Boot and PostgreSQL, it provides CRUD operations and access control using JWToken.',
-    //   description: "EduConnect is an educational management system designed to provide a RESTful API that simplifies the administration of educational institutions. Developed in Java using Spring Boot, the system facilitates the management of students, teachers, courses, grades, and other educational data. The API allows users to perform various operations such as creating, updating, retrieving, and deleting data stored in the PostgreSQL database, as well as authenticating users and controlling access to endpoints based on their roles and permissions. The project aims to adopt the Single Responsibility Principle (SRP), extensively described in the Object-Oriented Programming (OOP) paradigm by Robert C. Martin. This principle ensures that classes have only one responsibility. In the context of this project, SRP was implemented by structuring the codebase into distinct layers. Controller classes are tasked with receiving HTTP requests and delegating the processing to service classes, solely returning appropriate responses to the client. Service classes are responsible for implementing the business logic of the application, encapsulating operations such as validations, calculations, and data access through communication with repository classes. Repository classes provide methods to access and manipulate data in the database, sometimes creating specific methods within the JpaRepository extension. DTO (Data Transfer Object) classes handle the transportation of data between application layers, containing only attributes and access methods without any business logic. Interface classes define the contract with the service, specifying methods related to specific application functionality. This API also control routing access to users based on their role.",
-    //   projectLink: 'https://github.com/barbaracalderon/fmt-educonnect',
-    //   tags: [Tag.JAVA, Tag.SPRINGBOOT, Tag.SPRINGJWT, Tag.SPRINGSECURITY, Tag.SPRINGWEB, Tag.POSTGRESQL, Tag.INSOMNIA, Tag.POSTMAN, Tag.JDBC, Tag.JPA, Tag.LOMBOK, Tag.RESTAPI, Tag.SQL],
-    //   pictures: ["../../assets/ec_01.png", "../../assets/ec_02.png", "../../assets/ec_03.png"]
-    // },
+    {
+      id: 2,
+      name: 'Space knowlegde graph builder',
+      summary: 'Developed a framework for assessing the quality of Knowledge Graphs (KGs) extracted from OIE algorithms by introducing custom metrics based on triplet extraction, entity recognition, and completeness.',
+      description: 'Proposed a distance-based mathematical model to quantitatively evaluate the accuracy and structural soundness of extracted graphs against ideal graphs. Analyzed the performance of StanfordIE, ClausIE, and OpenIE6 models, identifying key strengths and limitations through comprehensive metric-driven comparisons.',
+      projectLink: 'https://github.com/pranav20395/Space_knowlegde_graph_builder',
+      tags: [Tag.PYTHON, Tag.KGs, Tag.Semantic ,Tag.PANDAS],
+      pictures: ["../../assets/sp1.png", "../../assets/sp2.png", "../../assets/sp3.png"]
+    },
+    {
+      id: 3,
+      name: 'Snakes-Ladders',
+      summary: 'This is a Game of Snakes and Ladders, developed using Java and JAVAFX and Scenebuilder.',
+      description: 'This is a Game of Snakes and Ladders, developed using Java and JAVAFX and Scenebuilder. The game is played on a 10x10 board with 100 squares. Players take turns rolling a die to move their pieces along the board. If a player lands on a square with a snake, they slide down to a lower square. If they land on a square with a ladder, they climb up to a higher square. The first player to reach the last square wins the game.',
+      projectLink: 'https://github.com/pranav20395/Snakes-Ladders',
+      tags: [Tag.JAVA, Tag.JAVAFX, Tag.OOPs, Tag.SceneBuilder],
+      pictures: ["../../assets/sl1.png", "../../assets/sl2.png"]
+    },
+    {
+      id: 4,
+      name: 'healthsake',
+      summary: 'This is the code base of HealthSake, an interactive Patient Data Management System developed primarily to facilitate the verification of the patients documents while buying medicines or making medical claims.',
+      description: 'A patient data management system is a software system developed primarily to facilitate the verification of the patients’ documents while buying medicines or making medical claims. The focus of this project is to develop a portal that facilitates the secure exchange and verification of electronic health records.',
+      projectLink: 'https://github.com/pranav20395/healthsake',
+      tags: [Tag.NEXTjs, Tag.Tailwind, Tag.POSTGRESQL, Tag.PRISMA, Tag.Nodemailer, Tag.TYPESCRIPT, Tag.JAVASCRIPT, Tag.HTML5, Tag.CSS3],
+      pictures: []
+    },
+    {
+      id: 5,
+      name: 'cric-o-pedia',
+      summary: "This is the code base of cric-o-pedia, an interactive platform to chat with other cricket fans and visualise cricket statistics.",
+      description: "This project, built for the Designing Interactive Systems course, is a web app where cricket fans can chat live during matches and visualize key cricket statistics. The MVP includes real-time chat and basic stat visualizations. Sprinkles like smooth animations and more detailed stats enhance the experience. It is built using ReactJS, NodeJS, ExpressJS, Tailwind CSS, and a mobile-first workflow.",
+      projectLink: 'https://github.com/pranav20395/cric-o-pedia',
+      tags: [Tag.Tailwind, Tag.REACTjs, Tag.NODEjs, Tag.EXPRESSjs, Tag.JAVASCRIPT],
+      pictures: ["../../assets/c1.png", "../../assets/c2.png", "../../assets/c3.png", "../../assets/c4.png"]
+    },
+    {
+      id: 6,
+      name: 'Simple-risc-assembler-and-simulator',
+      summary: 'This project is a Simple RISC Assembler and Simulator.',
+      description: "This project is a Simple RISC Assembler and Simulator, developed as part of the Computer Organization course at IIIT Delhi (Monsoon 2021). The assembler and simulator read input from stdin and output to stdout. Commands for running them are provided in the respective run scripts. Automated testing is set up using options like --verbose, --no-asm, and --no-sim.",
+      projectLink: 'https://github.com/pranav20395/Simple-risc-assembler-and-simulator',
+      tags: [Tag.JAVASCRIPT, Tag.HTML5, Tag.CSS3],
+      pictures: ["../../assets/r1.png", "../../assets/r2.png"]
+    },
+    {
+      id: 7,
+      name: 'Knowledge Graph Quality Metrics',
+      summary: "Developed a framework for assessing the quality of Knowledge Graphs (KGs) extracted from OIE algorithms by introducing custom metrics based on triplet extraction, entity recognition, and completeness. ",
+      description: "In the burgeoning field of knowledge representation, the construction and maintenance of high-quality knowledge graphs (KGs) play a pivotal role in ensuring the accuracy and reliability of information. This research endeavors to establish a comprehensive framework for assessing the quality of knowledge graphs, introducing novel matrices and metrics tailored to capture the intricacies of knowledge representation. Our approach involves the development of quantifiable measures that evaluate aspects such as completeness, consistency, accuracy, and contextual relevance within a knowledge graph.",
+      projectLink: 'https://drive.google.com/drive/folders/1rQODPQa1lV4MnwS4rmUynKNfMk6GzwHA?usp=sharing',
+      tags: [Tag.PYTHON, Tag.Semantic, Tag.KGs, Tag.PANDAS, Tag.MATHS, Tag.RESEARCH],
+      pictures: ["../../assets/kg1.png", "../../assets/kg2.png", "../../assets/kg3.png"]
+    },
     // {
     //   id: 8,
     //   name: '12 Barcodes API',
@@ -138,7 +138,7 @@ export class PortfolioComponent {
 
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('BC | Portfolio')
+    this.titleService.setTitle('Portfolio')
   }
 
   trackById(index: number, project: Card): number {
